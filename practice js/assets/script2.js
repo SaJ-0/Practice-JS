@@ -1,0 +1,10 @@
+var year = "2021";
+var today = "Monday";
+var date = "31";
+var month = "January";
+var currentTime = "10 AM : 30 : 48";
+document.getElementById("1").innerHTML = "Year: " + year;
+document.getElementById("2").innerHTML = "Today is: " + today;
+document.getElementById("3").innerHTML = "Date: " + date;
+document.getElementById("4").innerHTML = "Month: " + month;
+document.getElementById("5").innerHTML = "Current time is: " + currentTime;

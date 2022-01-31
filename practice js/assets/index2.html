@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Practice</title>
+</head>
+<body>
+
+  <h1>Tapenov Sanzhar</h1>
+ <p>CS-2122</p>
+
+  <p id="1"></p>
+     <p id="2"></p>
+     <p id="3"></p>
+     <p id="4"></p>
+     <p id="5"></p>
+  <script src="script2.js" charset="utf-8"></script>
+<script>
+  function myfun()
+  {
+    var a=document.getElementById('number').value;
+    var b=document.getElementById('numbers').value;
+    document.getElementById('result').innerHTML=(a*b)
+  }
+  function myfun2()
+  {
+    var a=document.getElementById('number').value;
+    var b=document.getElementById('numbers').value;
+    document.getElementById('result').innerHTML=(a/b)
+  }
+</script>
+  1st number:
+  <input type="number" value="" id="number"><br><br>
+  2nd number:
+  <input type="number" value="" id="numbers"><br><br>
+  <input type="submit" value="Multiply" onclick="return myfun()">
+  <input type="submit" value="Divide" onclick="return myfun2()"><br><br>
+  <b>The result is: </b><br><br>
+  <span id="result"></span>
+
+  <script>
+      var date1 = new Date("06/30/2021");
+    var date2 = new Date("07/30/2024");
+    var Difference_In_Time = date2.getTime() - date1.getTime();
+    var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
+    document.write("Total number of days between dates <br>"
+          + date1 + "<br> and <br>"
+          + date2 + " is: <br> "
+          + Difference_In_Days+" days left untill the freedom ");
+    </script>
+
+</body>
+</html>
